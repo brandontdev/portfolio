@@ -7,7 +7,7 @@ The site will be developed in Python, using [Django](https://www.djangoproject.c
 ## Roadmap
 The order in which I complete these items are subject to change, given any unexpected issues we may find along the development process, or any changes of heart I may have. However, I'd like to first tackle a robust development and deployment setup using just git, as explained below. 
 
-- Implement a simple git deployment system that will utilize pushing to remote `origin` repositories for backups/version control, and also a bare remote `production` repository that will use hooks to execute `git pull` from a third repository located on the remote VPS. Maybe in the future, we can also Implement a `staging` remote for a staging environment. This change would be simple, but I'm unsure what would be the best long-term method would be for Implementing the environment. 
+- Implement a simple git deployment system that will utilize pushing to remote `origin` repositories for backups/version control, and also a bare remote `production` repository that will use hooks to execute `git pull` from a third repository located on the remote VPS. Maybe in the future, we can also Implement a `staging` remote for a staging environment. This change would be simple, but I'm unsure what would be the best long-term method for Implementing the staging environment. 
 
 - Create dynamic `settings.py` files for both development and production environments. We want to make deployment as simple as possible, and keep the development and deployment environments segmented in an intuitive way. 
 
