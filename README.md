@@ -18,5 +18,3 @@ The order in which I complete these items are subject to change, given any unexp
 - `/contact` The contact page will be more-or-less almost exactly the same as the previous one, however there will be a reCaptcha implemented (spam is really getting bad), and my social links and email contact info will also be available.
 
 - `/portfolio` This will be a bit more complicated than the previous site's `/projects` page. There will be a blog-like "timeline" structure for the projects, however each project will also have its own page, which will contain a more comprehensive breakdown/explination of the details of the project and the development process. I also want to include a Tag system for the projects, and a simple Search function.
-
-- Once each of the site's HTML pages have been flushed out, and the CSS finished, we'll begin working in Django to build out the mechanics of each of the above features. The backend will use SQLite3 to start off; in the future, if a more comprehensive database framework is needed, we'll go with PostgresSQL, but I doubt we'd need something like that with what is currently planned.
