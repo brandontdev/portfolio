@@ -103,6 +103,10 @@ STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
 
+STATICFILES_DIRS = [
+
+]
+
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
